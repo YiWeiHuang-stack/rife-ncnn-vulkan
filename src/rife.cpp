@@ -34,7 +34,7 @@ RIFE::RIFE(int gpuid, bool _tta_mode, bool _uhd_mode, int _num_threads, bool _ri
     rife_uhd_double_flow = 0;
     rife_v2_slice_flow = 0;
     tta_mode = _tta_mode;
-    tta_temporal_mode = false;
+    tta_temporal_mode = true;
     uhd_mode = _uhd_mode;
     num_threads = _num_threads;
     rife_v2 = _rife_v2;
